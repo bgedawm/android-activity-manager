@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Supabase Manager</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
+    <string name="title">Title</string>
+    <string name="description">Description</string>
+    <string name="category">Category</string>
+    <string name="priority">Priority</string>
+    <string name="save">Save</string>
+    <string name="cancel">Cancel</string>
+    <string name="delete">Delete</string>
+    <string name="add_activity">Add Activity</string>
+    <string name="activities">Activities</string>
+    <string name="authentication">Authentication</string>
+    <string name="status">Status</string>
+    
+    <!-- Status messages -->
+    <string name="status_ready">Ready to connect to Supabase</string>
+    <string name="status_signed_in">Signed in successfully</string>
+    <string name="status_signed_out">Signed out successfully</string>
+    <string name="status_loading">Loading...</string>
+    <string name="status_error">Error occurred</string>
+    
+    <!-- Error messages -->
+    <string name="error_email_required">Email is required</string>
+    <string name="error_password_required">Password is required</string>
+    <string name="error_title_required">Title is required</string>
+    <string name="error_network">Network error occurred</string>
+    <string name="error_auth_failed">Authentication failed</string>
+    
+    <!-- Success messages -->
+    <string name="success_activity_created">Activity created successfully</string>
+    <string name="success_activity_deleted">Activity deleted successfully</string>
+    <string name="success_signed_up">Account created successfully</string>
+    
+    <!-- Priority options -->
+    <string-array name="priority_options">
+        <item>LOW</item>
+        <item>MEDIUM</item>
+        <item>HIGH</item>
+        <item>URGENT</item>
+    </string-array>
+</resources>
